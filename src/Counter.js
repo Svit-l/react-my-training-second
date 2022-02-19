@@ -22,11 +22,11 @@ class Counter extends Component {
   };
 
   handleIncrement = event => {
-    console.log('click +1');
-    console.log(this);
-    console.log(event);
-    console.log(event.target);
-    console.log(event.type);
+    // console.log('click +1');
+    // console.log(this);
+    // console.log(event);
+    // console.log(event.target);
+    // console.log(event.type);
     const target = event.target;
     // const { target } = event;
 
