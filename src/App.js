@@ -6,6 +6,7 @@ import { OneMovie } from './components/OneMovie';
 import { Layout } from './components/Layout';
 import { Cast } from './components/Cast';
 import { Reviews } from './components/Reviews';
+import { NoMatch } from './components/NoMatch';
 // import Counter from './Counter';
 
 // function App() {
@@ -32,6 +33,7 @@ export function App() {
             <Route path="reviews" element={<Reviews />} />
           </Route>
         </Route>
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
   );
